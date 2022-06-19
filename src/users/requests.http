@@ -4,9 +4,27 @@ POST http://localhost:3000/auth/signup
 Content-Type: application/json
 
 {
- "email": "asdas@fdsf.ru",
+ "email": "test@test.ru",
  "password": "12345"
 }
+
+### Sign in as an existing user
+
+POST http://localhost:3000/auth/signin
+Content-Type: application/json
+
+{
+ "email": "test@test.ru",
+ "password": "12345"
+}
+
+### Get the currently signed user
+
+GET http://localhost:3000/auth/whoami
+
+### Sign out
+
+POST  http://localhost:3000/auth/signout
 
 ### Find a particular user with a given ID
 
@@ -28,3 +46,11 @@ Content-Type: application/json
 {
  "email": "aaaa@aaa.com"
 }
+
+# ### Set a color
+
+# GET http://localhost:3000/auth/colors/red
+
+# ### Get a color
+
+# GET http://localhost:3000/auth/colors

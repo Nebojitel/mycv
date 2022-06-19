@@ -25,13 +25,16 @@
     "@nestjs/core": "^7.5.5",
     "@nestjs/platform-express": "^7.5.5",
     "@nestjs/typeorm": "^7.1.5",
+    "@types/cookie-session": "^2.0.44",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.13.2",
+    "cookie-session": "^2.0.0",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^7.2.0",
     "sqlite3": "^5.0.8",
-    "typeorm": "^0.3.6"
+    "typeorm": "^0.3.6",
+    "webpack": "^5.73.0"
   },
   "devDependencies": {
     "@nestjs/cli": "^8.0.0",
